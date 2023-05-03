@@ -1,4 +1,5 @@
-# snapshot_research
+#  SC
+# Question 1
                                           address     rate
 0x0516cf37B67235E07aF38ad8E388d0E68089b0F2 0.911263
 
@@ -40,5 +41,5 @@
 
 0x770BEbe5946907CeE4DFE004F1648ac435A9d5bb 0.812287
 
+# Question 2
 UPenn's Snapshot participation rate for Aave is: 0.6382252559726962
-# SC
