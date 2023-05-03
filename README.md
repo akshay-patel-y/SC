@@ -10,7 +10,7 @@
 4) Run the script by running the following command in your terminal in the repository:
 - python Snapshot.py
 
-# Question 1
+# Question 1: Top 20 Addresses and their Participation Rates
                                           address     rate
 0x0516cf37B67235E07aF38ad8E388d0E68089b0F2 0.911263
 
@@ -52,5 +52,5 @@
 
 0x770BEbe5946907CeE4DFE004F1648ac435A9d5bb 0.812287
 
-# Question 2
+# Question 2: Participation rate for UPenn's Address
 UPenn's Snapshot participation rate for Aave is: 0.6382252559726962
