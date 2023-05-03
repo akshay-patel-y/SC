@@ -7,6 +7,10 @@ def get_votes_for_proposal(proposal_id, created_lt=0):
     # Define the GraphQL query for fetching votes for a proposal
     endpoint = "https://hub.snapshot.org/graphql"
     params = ""
+    # Checks for votes after a time stamp meaning for batches after the first one. 
+    # If no time value is passed in, it gets the first 1000 votes. This logic handles the
+    # retrieval of subsequent votes and overcomes the skip limit as we check for votes that are created
+    # less than a time limit
     if created_lt:    
         params = {
             "query": """
