@@ -10,7 +10,6 @@ def get_votes_for_proposal(proposal_id, created_lt=0):
     # This logic handles vote retrieval. created_lt means created less than a time.
     # If a value is passed in, it checks for votes that were created before a certain time
     # If no value is passed in, the query just returns the first 1000 votes.
-    # Checks for votes after a time stamp meaning for batches after the first one. 
     # This logic handles the retrieval of subsequent votes and overcomes the skip limit
     if created_lt:    
         params = {
