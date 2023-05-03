@@ -1,4 +1,15 @@
 #  SC
+# Instructions
+1) Ensure that you have Python 3 installed on your computer.
+
+2) Clone or download the script and navigate to the directory where the script is saved.
+
+3) Install the required packages by running the following command in your terminal:
+- pip install requests pandas
+
+4) Run the script by running the following command in your terminal in the repository:
+- python Snapshot.py
+
 # Question 1
                                           address     rate
 0x0516cf37B67235E07aF38ad8E388d0E68089b0F2 0.911263
